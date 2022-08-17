@@ -1,3 +1,10 @@
+# Tool list
+1. nmap
+2. SecList
+3. gobuster
+4. burpsuit
+5. 
+
 # Network Service Discovery: [T1046](https://attack.mitre.org/techniques/T1046/)
 
 
