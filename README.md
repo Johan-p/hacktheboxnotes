@@ -1,6 +1,3 @@
-# hack the box notes
-
-
 # Network Service Discovery 
 [T1046](https://attack.mitre.org/techniques/T1046/)
 
