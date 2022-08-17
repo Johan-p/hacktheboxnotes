@@ -1,19 +1,23 @@
 # hacktheboxnotes
 workflow notes
 
-# nmap
+# Network Service Discovery 
 
-https://github.com/Johan-p/nmap-cheatsheet
+[T1046](https://attack.mitre.org/techniques/T1046/)
+
+## [nmap](https://github.com/Johan-p/nmap-cheatsheet)
 
 `nmap -sC -sV -oA nmap 10.129.147.*`
 
 # websites
 
+## T1595.003 Active Scanning: Wordlist Scanning 
+
+[T1595.003](https://attack.mitre.org/techniques/T1595/003/) 
+
 ## Hostname
 
 `echo "10.129.129.* websitename.htb" | sudo tee -a /etc/hosts`
-
-## enumeration
 
 ### Subdomains
 
