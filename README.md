@@ -1,5 +1,4 @@
-# Network Service Discovery 
-[T1046](https://attack.mitre.org/techniques/T1046/)
+# Network Service Discovery: [T1046](https://attack.mitre.org/techniques/T1046/)
 
 
 [nmap](https://github.com/Johan-p/nmap-cheatsheet)
@@ -8,7 +7,7 @@
 
 
 
-# websites
+# Websites
 
 ## T1595.003 Active Scanning: Wordlist Scanning 
 
