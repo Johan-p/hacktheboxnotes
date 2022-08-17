@@ -29,16 +29,16 @@
 
 `gobuster vhost -w ~/Desktop/Useful\ Repos/SecLists/Discovery/DNS/subdomains-top1million-5000.txt -u http://website.htb`
 
-**Directories**
-
-`gobuster -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -u http:/10.129.129.* -t 20`
-
 If you don't have [SecList](https://www.kali.org/tools/seclists/) installed
 
 `git clone https://github.com/danielmiessler/SecLists.git`
  
  *note that with pwnbox its found on the desktop*
- 
+
+**Directories**
+
+`gobuster -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt dir --url http://website.htb -t 20`
+
 **Drupal sites**
  
 `cd opt/droopescan`
