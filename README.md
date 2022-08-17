@@ -1,9 +1,10 @@
 # Tool list
-1. nmap
-2. SecList
-3. gobuster
-4. burpsuit
-5. 
+1. [nmap](https://www.kali.org/tools/nmap/)
+2. [SecList](https://www.kali.org/tools/seclists/)
+3. [gobuster](https://www.kali.org/tools/gobuster/)
+4. [burpsuit](https://www.kali.org/tools/burpsuite/)
+5. [droopescan]()
+6. 
 
 
 # Discovery
@@ -25,6 +26,10 @@
 **Discover Subdomains**
 
 `gobuster vhost -w ~/Desktop/Useful\ Repos/SecLists/Discovery/DNS/subdomains-top1million-5000.txt -u http://website.htb`
+
+**Directories**
+
+`gobuster -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -u http:/10.129.129.* -t 20`
 
 If you don't have [SecList](https://www.kali.org/tools/seclists/) installed
 
