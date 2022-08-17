@@ -13,7 +13,9 @@
 
 ### [nmap](https://github.com/Johan-p/nmap-cheatsheet)
 
-`nmap -sC -sV -oA nmap 10.129.147.*`
+`echo targetip > target.txt`
+
+`nmap -sC -sV -oA nmap -iL target.txt`
 
 # Websites
 ## Reconnaissance
