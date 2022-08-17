@@ -21,7 +21,7 @@
 
 `gobuster vhost -w ~/Desktop/Useful\ Repos/SecLists/Discovery/DNS/subdomains-top1million-5000.txt -u http://website.htb`
 
-If you don't have [SecList](https://www.kali.org/tools/seclists/)
+If you don't have [SecList](https://www.kali.org/tools/seclists/) installed
 
 `git clone https://github.com/danielmiessler/SecLists.git`
  
