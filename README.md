@@ -14,9 +14,8 @@
 
 `nmap -sC -sV -oA nmap 10.129.147.*`
 
-
-# Reconnaissance
-## Websites
+# Websites
+## Reconnaissance
 ### Active Scanning: Wordlist Scanning: [T1595.003](https://attack.mitre.org/techniques/T1595/003/) 
 
 **Add website to hosts file**
@@ -41,10 +40,10 @@ If you don't have [SecList](https://www.kali.org/tools/seclists/) installed
 
 `http://10.129.147.*/CHANGELOG.txt`
 
+## Initial Access
+###  Drive-by Compromise: [T1189](https://attack.mitre.org/techniques/T1189/) 
 
-# Initial Access
-##  Drive-by Compromise: [T1189](https://attack.mitre.org/techniques/T1189/) 
-### Burpsuite
+**Burpsuite**
 
 
 
