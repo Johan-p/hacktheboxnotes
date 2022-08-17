@@ -9,9 +9,7 @@
 
 # Websites
 
-## T1595.003 Active Scanning: Wordlist Scanning 
-
-[T1595.003](https://attack.mitre.org/techniques/T1595/003/) 
+## Active Scanning: Wordlist Scanning: [T1595.003](https://attack.mitre.org/techniques/T1595/003/) 
 
 ### Add website to hosts file
 
