@@ -64,6 +64,8 @@ change the ip to the ip of your host
 
 `nc -nvlp 1337`
 
+## Resource Development
+### Stage Capabilities: Upload Malware: [T1608.001](https://attack.mitre.org/techniques/T1608/001/)
 **Simple python webserver**
 
 In order to deliver our shell script use a simple http server
