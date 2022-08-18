@@ -57,6 +57,8 @@ If you don't have [SecList](https://www.kali.org/tools/seclists/) installed
 ## Resource Development
 ### Develop Capabilities: Malware: [T1587.001](https://attack.mitre.org/techniques/T1587/001/)
 
+[See Reverse Shell Cheat Sheet](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md#groovy)
+
 **simple shell code script**
 
 `ip addr`
