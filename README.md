@@ -13,7 +13,7 @@
 
 ### [nmap](https://github.com/Johan-p/nmap-cheatsheet)
 
-`echo targetip > target.txt`
+`echo "targetip" > target.txt`
 
 `nmap -sC -sV -oA nmap -iL target.txt`
 
