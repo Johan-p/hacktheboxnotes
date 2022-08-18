@@ -14,7 +14,7 @@
 
 `echo "targetip" > target.txt`
 
-`nmap -sC -sV -oA nmap -iL target.txt`
+`nmap -sC -sV -Pn -oA nmap -iL target.txt`
 
 
 # Websites
