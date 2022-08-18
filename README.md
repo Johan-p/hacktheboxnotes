@@ -52,13 +52,18 @@ If you don't have [SecList](https://www.kali.org/tools/seclists/) installed
 
 **Burpsuite**
 
-**shell code**
+## Resource Development
+### Develop Capabilities: Malware: [T1587.001](https://attack.mitre.org/techniques/T1587/001/)
+
+**simple shell code script**
+
+`ip addr`
 
 see shell.sh
 
-change the ip to the ip of your host
+`vim shell.sh`
 
-`ip addr`
+change the ip to the ip of your host
 
 **Netcat listener**
 
