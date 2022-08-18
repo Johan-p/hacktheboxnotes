@@ -7,15 +7,15 @@
 6. 
 
 
+
 # Discovery
 ## Network Service Discovery: [T1046](https://attack.mitre.org/techniques/T1046/)
-
-
 ### [nmap](https://github.com/Johan-p/nmap-cheatsheet)
 
 `echo "targetip" > target.txt`
 
 `nmap -sC -sV -oA nmap -iL target.txt`
+
 
 # Websites
 ## Reconnaissance
@@ -47,10 +47,12 @@ If you don't have [SecList](https://www.kali.org/tools/seclists/) installed
 
 `http://10.129.147.*/CHANGELOG.txt`
 
+
 ## Initial Access
 ###  Drive-by Compromise: [T1189](https://attack.mitre.org/techniques/T1189/) 
 
 **Burpsuite**
+
 
 ## Resource Development
 ### Develop Capabilities: Malware: [T1587.001](https://attack.mitre.org/techniques/T1587/001/)
@@ -59,13 +61,14 @@ If you don't have [SecList](https://www.kali.org/tools/seclists/) installed
 
 `ip addr`
 
-see shell.sh
+change the ip to the ipadress of your machine
 
 `vim shell.sh`
 
-change the ip to the ip of your host
 
 **Netcat listener**
+
+Open another terminal and run a Netcat listener
 
 `nc -nvlp 1337`
 
