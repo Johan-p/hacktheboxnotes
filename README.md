@@ -18,14 +18,14 @@
 
 
 # Websites
-## Reconnaissance
-### Active Scanning: Wordlist Scanning: [T1595.003](https://attack.mitre.org/techniques/T1595/003/) 
+# Reconnaissance
+## Active Scanning: Wordlist Scanning: [T1595.003](https://attack.mitre.org/techniques/T1595/003/) 
 
-**Add website to hosts file**
+### Add website to hosts file
 
 `echo "10.129.129.* websitename.htb" | sudo tee -a /etc/hosts`
 
-**Discover Subdomains**
+### Discover Subdomains
 
 `gobuster vhost -w ~/Desktop/Useful\ Repos/SecLists/Discovery/DNS/subdomains-top1million-5000.txt -u http://website.htb`
 
@@ -35,23 +35,17 @@ If you don't have [SecList](https://www.kali.org/tools/seclists/) installed
  
  *note that with pwnbox its found on the desktop*
 
-**Directories**
+### Directories
 
 `gobuster -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt dir --url http://website.htb -t 20`
 
-**Drupal sites**
+### Drupal sites
  
 `cd opt/droopescan`
 
 `./droopescan scan drupal -u 10.129.147.*`
 
 `http://10.129.147.*/CHANGELOG.txt`
-
-
-## Initial Access
-###  Drive-by Compromise: [T1189](https://attack.mitre.org/techniques/T1189/) 
-
-**Burpsuite**
 
 
 ## Resource Development
@@ -74,12 +68,19 @@ Open another terminal and run a Netcat listener
 
 `nc -nvlp 1337`
 
-## Resource Development
 ### Stage Capabilities: Upload Malware: [T1608.001](https://attack.mitre.org/techniques/T1608/001/)
 **Simple python webserver**
 
 In order to deliver our shell script use a simple http server
 
 `python3 -m http.server 8000`
+
+
+## Initial Access
+###  Drive-by Compromise: [T1189](https://attack.mitre.org/techniques/T1189/) 
+
+**Burpsuite**
+
+
 
 
