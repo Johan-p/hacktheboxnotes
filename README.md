@@ -53,6 +53,7 @@ If you don't have [SecList](https://www.kali.org/tools/seclists/) installed
 **Burpsuite**
 
 **shell code**
+
 see shell.sh
 
 change the ip to the ip of your host
@@ -64,6 +65,7 @@ change the ip to the ip of your host
 `nc -nvlp 1337`
 
 **Simple python webserver**
+
 In order to deliver our shell script use a simple http server
 
 `python3 -m http.server 8000`
