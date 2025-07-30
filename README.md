@@ -2,9 +2,11 @@
 1. [nmap](https://www.kali.org/tools/nmap/)
 2. [SecList](https://www.kali.org/tools/seclists/)
 3. [gobuster](https://www.kali.org/tools/gobuster/)
-4. [burpsuit](https://www.kali.org/tools/burpsuite/)
-5. [droopescan]()
-6. 
+4. [feroxbuster](https://github.com/epi052/feroxbuster)
+5. [git-dumper](https://github.com/arthaud/git-dumper)
+6. [burpsuit](https://www.kali.org/tools/burpsuite/)
+7. [droopescan]()
+8. 
 
 
 
@@ -39,6 +41,25 @@ If you don't have [SecList](https://www.kali.org/tools/seclists/) installed
 
 `gobuster -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt dir --url http://website.htb -t 20`
 
+`feroxbuster -u http://website.htb -n -w /usr/share/wordlist/dirb/common.txt --no-state -C 400`
+
+### Git repitory
+
+`pipx install git-dumper`
+
+dumping the repo
+`git-dumper http://website.htb repo`
+
+you can now explore the repo inside the repo folder
+
+show the log
+`git log`
+
+explore a spesific commit
+`git show commithash`
+
+
+
 ### Drupal sites
  
 `cd opt/droopescan`
@@ -46,6 +67,13 @@ If you don't have [SecList](https://www.kali.org/tools/seclists/) installed
 `./droopescan scan drupal -u 10.129.147.*`
 
 `http://10.129.147.*/CHANGELOG.txt`
+
+
+## Privilege escalation
+
+Linux privilege escalation
+
+See [GTFOBins](https://gtfobins.github.io/) 
 
 
 ## Resource Development
